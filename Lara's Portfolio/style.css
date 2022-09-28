@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Red+Hat+Mono&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    font-family: 'Red Hat Mono', monospace;
+    color: black;
+    align-items: baseline;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.header:hover {
+    color: gray;
+}
+
+.header:active {
+    color: black;
+}
+
+#about {
+    margin-left: 35%;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#intro {
+    font-size: 36px;
+}
+
+.name {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 90px;
+}
+
+#description {
+    font-size: 28px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 2%;
+    margin-left: 8%;
+}
+
+.mainpage {
+    margin-top: 11%;
+    margin-left: 25%;
+}
+
+.name {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0;
+    animation: 
+      typing 3.0s steps(40, end),
+      blink-caret .75s;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+.about {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 45px;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+.text-about {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.div-about {
+    width: 35%;
+    margin-left: 20%;
+}
+
+.body-about {
+    animation: 
+    animation-appearing 2.0s steps(40, end);
+}
+
+@keyframes animation-appearing {
+    from {color: white;}
+    to {color: black;}
+  }
+
+.title-design {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .grid-item {
+    text-align: center;
+    margin: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+.web-design {
+    width: 100%;
+}
+
+#github {
+    margin-bottom: 15px;
+    width: 50px;
+}
+
+.icons {
+    align-items: baseline;
+    height: 1000%;
+}
+
+.contact-me {
+    margin-top: 15%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 400%;
+}
+
+.contact-page {
+    margin-left: 25%;
+}
+
+.email {
+    margin-left: 35%;
+    font-size: 150%;
+}
+
+.lara-email {
+    margin-left: 5%;
+}
+
+.nothing {
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 35%;
+    margin-top: 15%;
+}
